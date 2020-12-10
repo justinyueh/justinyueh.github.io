@@ -1,5 +1,8 @@
 # hello world
 
+- TOC
+{:toc}
+
 ```json
 {
   "name": "justin"
