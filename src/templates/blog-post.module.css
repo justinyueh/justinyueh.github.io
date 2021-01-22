@@ -1,0 +1,9 @@
+.hero {
+  display: flex;
+  height: 12.5em;
+  align-items: center;
+  justify-content: center;
+  margin: -1em -2.5em 1em;
+  background: #502222;
+  font-size: 2em;
+}

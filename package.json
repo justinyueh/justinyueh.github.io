@@ -1,0 +1,78 @@
+{
+  "name": "contentful-starter-gatsby-blog",
+  "description": "Contentful Gatsby Starter Blog",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Contentful <opensource@contentful.com>",
+  "bugs": {
+    "url": "https://github.com/contentful/starter-gatsby-blog/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "contentful-import": "^7.9.33",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.31.1",
+    "gatsby-image": "^2.10.0",
+    "gatsby-plugin-gtag": "^1.0.13",
+    "gatsby-plugin-manifest": "^2.11.0",
+    "gatsby-plugin-offline": "^3.9.0",
+    "gatsby-plugin-react-helmet": "^3.9.0",
+    "gatsby-plugin-sharp": "^2.13.1",
+    "gatsby-remark-prismjs": "^3.12.0",
+    "gatsby-source-contentful": "^4.5.1",
+    "gatsby-transformer-remark": "^2.15.0",
+    "gatsby-transformer-sharp": "^2.11.0",
+    "gh-pages": "^3.1.0",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "prismjs": "^1.23.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "yargs-parser": "^20.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "netlify-cli": "^3.4.1",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.9.0",
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "homepage": "https://github.com/contentful/starter-gatsby-blog#readme",
+  "keywords": [
+    "gatsby",
+    "contentful",
+    "starter"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentful/starter-gatsby-blog.git"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public",
+    "heroku-postbuild": "gatsby build",
+    "serve": "gatsby serve",
+    "postinstall": "node ./bin/hello.js",
+    "setup": "node ./bin/setup.js",
+    "netlify:login": "netlify login",
+    "netlify:deploy": "netlify deploy -d public -p",
+    "lint:js": "eslint .",
+    "lint:style": "stylelint \"**/*.css\"",
+    "test": "npm run lint:js && npm run lint:style"
+  }
+}

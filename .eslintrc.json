@@ -1,0 +1,12 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "import/order": ["error", { "alphabetize": { "order": "asc" } }],
+    "react/jsx-filename-extension": "off",
+    "react/prefer-stateless-function": "off",
+    "react/prop-types": "off",
+    "react/destructuring-assignment": "off"
+  }
+}

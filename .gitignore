@@ -55,5 +55,17 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+.env*
 
+# build folder
+public
+
+# gatsby cache folder
+.cache
+
+# contentful config file
+.contentful.json
+# Local Netlify folder
+.netlify
+
+contentful/

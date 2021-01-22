@@ -1,0 +1,20 @@
+.navigation {
+  display: flex;
+  height: 20vh;
+  max-height: 100px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-size: 1.25em;
+  list-style: none;
+}
+
+.navigationItem {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 1em;
+}
+
+.navigationItem a {
+  color: currentColor;
+}

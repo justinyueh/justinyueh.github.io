@@ -1,0 +1,72 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/avenir-400.woff2') format('woff2');
+}
+
+body {
+  margin: 0;
+  background: #eee;
+  color: #373f49;
+  font-family: 'Avenir', Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.65;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+a {
+  color: currentColor;
+}
+
+.wrapper {
+  width: calc(100% - 10vmin);
+  padding: 5vmin 0;
+  margin: 0 auto;
+}
+
+/**
+ * article grid
+ */
+.article-list {
+  display: grid;
+  padding: 0;
+  margin: 0;
+  grid-gap: 5vmin;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  list-style: none;
+}
+
+/**
+ *
+ */
+.section-headline {
+  padding: 0 0 0.4em 0;
+  border-bottom: 1px solid #ddd;
+  margin: 0 0 5vmin 0;
+}
+
+/**
+ *
+ */
+.list-inline {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+}
