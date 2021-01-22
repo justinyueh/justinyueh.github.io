@@ -4,6 +4,7 @@ const chalk = require('chalk');
 const spaceImport = require('contentful-import');
 const inquirer = require('inquirer');
 const argv = require('yargs-parser')(process.argv.slice(2));
+// eslint-disable-next-line import/no-unresolved
 const exportFile = require('../contentful/export.json');
 
 console.log(`
