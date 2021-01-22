@@ -64,7 +64,7 @@
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public",
+    "deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/justinyueh/justinyueh.github.io.git",
     "heroku-postbuild": "gatsby build",
     "serve": "gatsby serve",
     "postinstall": "node ./bin/hello.js",
