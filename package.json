@@ -64,13 +64,13 @@
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/justinyueh/justinyueh.github.io.git",
     "heroku-postbuild": "gatsby build",
     "serve": "gatsby serve",
     "postinstall": "node ./bin/hello.js",
     "setup": "node ./bin/setup.js",
     "netlify:login": "netlify login",
     "netlify:deploy": "netlify deploy -d public -p",
+    "gh-pages:deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/justinyueh/justinyueh.github.io.git",
     "lint:js": "eslint .",
     "lint:style": "stylelint \"**/*.css\"",
     "test": "npm run lint:js && npm run lint:style"
